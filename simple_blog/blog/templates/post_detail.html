@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>By: {{ post.author.name }}</p>
+    <p>Content: {{ post.content }}</p>
+    <p>Created at: {{ post.created_at }}</p>
+    <p>Primary Key: {{ post.pk }}</p>  <!-- Use post.pk instead of post.slug -->
+</body>
+</html>
